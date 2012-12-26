@@ -2,7 +2,7 @@
 //
 // ==UserScript==
 // @name          jjwxc-point-per-word
-// @namespace     http://abbypan.blogspot.com/
+// @namespace     http://abbypan.github.com/
 // @description   将作者专栏、排行榜单、作品库中的文章积分除以字数，另加一列显示之
 // @include       http://www.jjwxc.net/oneauthor.php*
 // @include       http://www.jjwxc.net/topten.php*
@@ -12,10 +12,10 @@
 // @include       http://www.jjwxc.com/topten.php*
 // @include       http://www.jjwxc.com/bookbase.php*
 // @include       http://www.jjwxc.com/bookbase_slave.php*
-// @copyright     2009+, Abby Pan (http://abbypan.blogspot.com/)
+// @copyright     2009+, Abby Pan (http://abbypan.github.com/)
 // @version       0.8
 // @author        Abby Pan (abbypan@gmail.com)
-// @homepage      http://abbypan.blogspot.com/
+// @homepage      http://abbypan.github.com/
 //
 // ==/UserScript==
 
@@ -95,4 +95,3 @@ function addTdNode(node, str) {
     var addNodeLocation = node.nextSibling.nextSibling.nextSibling;
     node.parentNode.insertBefore(td, addNodeLocation);
 }
-
