@@ -4,16 +4,16 @@
 // @name          jjwxc-point-per-word
 // @namespace     http://abbypan.github.com/
 // @description   将作者专栏、排行榜单、作品库中的文章积分除以字数，另加一列显示之
-// @include       http://www.jjwxc.net/oneauthor.php*
-// @include       http://www.jjwxc.net/topten.php*
-// @include       http://www.jjwxc.net/bookbase.php*
-// @include       http://www.jjwxc.net/bookbase_slave.php*
-// @include       http://www.jjwxc.com/oneauthor.php*
-// @include       http://www.jjwxc.com/topten.php*
 // @include       http://www.jjwxc.com/bookbase.php*
 // @include       http://www.jjwxc.com/bookbase_slave.php*
+// @include       http://www.jjwxc.com/oneauthor.php*
+// @include       http://www.jjwxc.com/topten.php*
+// @include       http://www.jjwxc.net/bookbase.php*
+// @include       http://www.jjwxc.net/bookbase_slave.php*
+// @include       http://www.jjwxc.net/oneauthor.php*
+// @include       http://www.jjwxc.net/topten.php*
 // @copyright     2009+, Abby Pan (http://abbypan.github.com/)
-// @version       0.8
+// @version       0.9
 // @author        Abby Pan (abbypan@gmail.com)
 // @homepage      http://abbypan.github.com/
 //
@@ -27,13 +27,18 @@ function getTdXPath() {
     var urlPath = {
         //key : url匹配的关键字
         //value : 要进行计算的“字数”所在 td 的XPath
-        "oneauthor.php": '//table[5]/tbody/tr/td[5]',
+        
         //作者专栏
-        "topten.php": '//table[4]/tbody/tr/td[7]',
+        "oneauthor.php": '//table/tbody/tr/td[5]',
+
         //排行榜
-        "bookbase.php": "/html/body/div[7]/table/tbody/tr/td[6]",
+        "topten.php": '//table/tbody/tr/td[7]',
+
         //查询后的排行榜
-        "bookbase_slave.php": "/html/body/div[7]/table/tbody/tr/td[6]" //作品库、vip作品库
+        "bookbase.php": "//table/tbody/tr/td[6]",
+
+        //作品库、vip作品库
+        "bookbase_slave.php": "//table/tbody/tr/td[6]" 
     };
 
     for (var key in urlPath) {
