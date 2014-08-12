@@ -1,9 +1,9 @@
 // --------------------------------------------------------------------
 //
 // ==UserScript==
-// @name          jjwxc-point-per-word
-// @namespace     http://abbypan.github.com/
-// @description   将作者专栏、排行榜单、作品库中的文章积分除以字数，另加一列显示之
+// @name          jjwxc_point_per_word
+// @namespace     http://abbypan.github.io/
+// @description   将绿晋江 http://www.jjwxc.net 的作者专栏、排行榜单、作品库中的文章积分除以字数，另加一列显示之
 // @include       http://www.jjwxc.com/bookbase.php*
 // @include       http://www.jjwxc.com/bookbase_slave.php*
 // @include       http://www.jjwxc.com/oneauthor.php*
@@ -12,7 +12,7 @@
 // @include       http://www.jjwxc.net/bookbase_slave.php*
 // @include       http://www.jjwxc.net/oneauthor.php*
 // @include       http://www.jjwxc.net/topten.php*
-// @copyright     2009+, Abby Pan (http://abbypan.github.com/)
+// @copyright     2009+, Abby Pan (http://abbypan.github.io/)
 // @version       0.9
 // @author        Abby Pan (abbypan@gmail.com)
 // @homepage      http://abbypan.github.com/

@@ -8,17 +8,21 @@ jjwxc_point_per_word
 
 
 图标
+
 ![jjwxc.png](jjwxc.png)
 
 作者
+
 ![writer.png](writer.png)
 
 榜单
+
 ![bangdan.png](bangdan.png)
 
 频道
+
 ![pindao.png](pindao.png)
 
 作品库
-![zuopinku.png](zuopinku.png)
 
+![zuopinku.png](zuopinku.png)
